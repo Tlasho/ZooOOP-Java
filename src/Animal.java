@@ -18,12 +18,14 @@ public abstract class Animal {
         this.name = name;
     }
 
-    public Animal(String name, int age){
+    public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
+
     public abstract void makeSound();
-    public void eat(){
+
+    public void eat() {
         System.out.println("Eating...");
     }
 }
